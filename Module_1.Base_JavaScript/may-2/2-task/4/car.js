@@ -3,12 +3,12 @@ const maxCarSpeed = '200';
 const carOwner = 'Aleksandr';
 
 alert(`У машины ${carName} изменилась скорость (Смотри в консоль)`);
-const NewmaxCarSpeed = '220';
-console.log(`Новая скорость машины ${NewmaxCarSpeed}`);
+const newmaxCarSpeed = '220';
+console.log(`Новая скорость машины ${newmaxCarSpeed}`);
 
 alert(`У машины ${carName} сменился водитель (Смотри в консоль)`);
-const NewcarOwner = 'Mordva';
-console.log(`Новое имя водителя ${NewcarOwner}`);
+const newcarOwner = 'Mordva';
+console.log(`Новое имя водителя ${newcarOwner}`);
 
 /**alert(carName);
 alert(maxCarSpeed);

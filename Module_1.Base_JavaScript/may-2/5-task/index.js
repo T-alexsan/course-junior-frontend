@@ -1,7 +1,7 @@
 
 /** Варианты вывода строк */
 const name1 = 'Maksim';
-const name2 = "Dmitry";
+const name2 = 'Dmitry';
 const name3 = `Alex`;
 
 console.log(name1, name2, name3);

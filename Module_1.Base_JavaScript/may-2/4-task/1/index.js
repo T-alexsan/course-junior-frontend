@@ -1,5 +1,5 @@
 /** string - текстовое значение */
-let favoritDrink = "Coffe";
+let favoritDrink = 'Coffe';
 console.log(Number(favoritDrink), Boolean(favoritDrink), String(favoritDrink));
 
 /** number - числовое значение */
@@ -20,7 +20,7 @@ console.log(Number(carOwner), Boolean(carOwner), String(carOwner));
 
 /** object - содержит множество значений (контейнер) */
 let drink = {
-    favoritDrink: "Coffe",
+    favoritDrink: 'Coffe',
     numberofCups: 5,
     isColdDrink: true,
     //key: value,
@@ -28,7 +28,7 @@ let drink = {
 console.log(Number(drink), Boolean(drink), String(drink)); //Тут не понятно почему так выводит !
 
 /** symbol - нужен для создания уникальных ключей объекта (object) */
-let id = Symbol("id");
+let id = Symbol('id');
 //console.log(Number(id), Boolean(id), String(id)); выводит ошибку
 
 /** bigint - большое число  */

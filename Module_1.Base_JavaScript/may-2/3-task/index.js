@@ -7,14 +7,14 @@
 
 //Пример работы typeof
 console.log(typeof 5);
-console.log(typeof "Aleksandr");
+console.log(typeof 'Aleksandr');
 
 //Исключения
 console.log(typeof null); //Выведет object
 console.log(typeof console.log); //Выведет function
 
 /** string - текстовое значение */
-const favoritDrink = "Coffe";
+const favoritDrink = 'Coffe';
 console.log(favoritDrink);
 
 /** number - числовое значение */
@@ -35,7 +35,7 @@ console.log(carOwner);
 
 /** object - содержит множество значений (контейнер) */
 const drink = {
-    favoritDrink: "Coffe",
+    favoritDrink: 'Coffe',
     numberofCups: 5,
     isColdDrink: true,
     //key: value,
@@ -43,7 +43,7 @@ const drink = {
 console.log(drink);
 
 /** symbol - нужен для создания уникальных ключей объекта (object) */
-const id = Symbol("id");
+const id = Symbol('id');
 console.log(id);
 
 /** bigint - большое число  */
