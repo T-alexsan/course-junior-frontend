@@ -1,7 +1,7 @@
 /** toUpperCase (сделать символы заглавными), toLowerCase (сделать символы маленькими)*/
 
 const animal = 'Lion';
-console.log(animal.toUpperCase()); //Не изменяет значение переменной
+    console.log(animal.toUpperCase()); //Не изменяет значение переменной
 console.log(animal.toLowerCase()); //Не изменяет значение переменной
 
 /** Найти индекс символа (порядковый номер) в строчке -indexOf, includes */
