@@ -1,7 +1,7 @@
 const existingUserLogin = 'user';
-const existingUserPassword = 123;
+const existingUserPassword = '123';
 
-let userLogin = prompt('Введите логин').trim();
+const userLogin = prompt('Введите логин').trim();
 // if (userLogin === existingUserLogin){
 //     console.log('Пользователь найден')
 //         //alert('Пользователь найден, введите пароль!')
@@ -10,7 +10,7 @@ let userLogin = prompt('Введите логин').trim();
 //     //alert('Пользователь не найден!')
 // }
 
-let userPassword = prompt('Введите пароль').trim();
+const userPassword = prompt('Введите пароль').trim();
 // if (Number(userPassword) === existingUserPassword){
 //     console.log('Пароль верный')
 //     //alert('Пароль верный')
@@ -20,7 +20,7 @@ let userPassword = prompt('Введите пароль').trim();
 // }
 
 
-if (userLogin === existingUserLogin && Number(userPassword) === existingUserPassword) {
+if (userLogin === existingUserLogin && userPassword === existingUserPassword) {
     console.log('Авторизация успешная');
     alert('Авторизация успешная');
 } else {

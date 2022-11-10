@@ -9,7 +9,7 @@
 //
 // }
 
-for (let i = 0; i < 11; i += 1) {
+for (let i = 0; i < 5; i++) {
 console.log(i);
 }
 
@@ -18,7 +18,7 @@ console.log(i);
 // }
 
 let y = 0;
-while (y < 11) {
+while (y < 5) {
 console.log(y);
 y += 1;
 }
