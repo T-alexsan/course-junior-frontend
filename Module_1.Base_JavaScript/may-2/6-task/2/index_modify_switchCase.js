@@ -15,7 +15,7 @@ switch (answerQuestion1) {
         incorrectAnswers++;
 }
 
-const askQuestion2 = prompt("2 * 2").trim();
+const askQuestion2 = prompt("Сколько будет 2 * 2?").trim();
 const answerQuestion2 = Number(askQuestion2);
 switch (answerQuestion2) {
     case 4:
