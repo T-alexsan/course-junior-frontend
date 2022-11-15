@@ -1,5 +1,6 @@
 /** Функция это кусок кода, который можно вызывать в разных местах, вставляя название функции */
 
+/** Function decloration */
 // //sayHello(); функцию можно вызывать до объявления
 //
 // function sayHello() {
@@ -34,3 +35,4 @@ function sum4(a, b) {
 }
 const result = sum4(10, 5);
 console.log(result);
+
