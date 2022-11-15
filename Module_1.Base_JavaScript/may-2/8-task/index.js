@@ -29,7 +29,6 @@ sum2(); //и просто вызвать фунцкию
 // sum3(3, 10, displayer);
 
 /** return */
-
 function sum4(a, b) {
  return a + b;
 }
