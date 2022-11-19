@@ -1,15 +1,41 @@
 
-let signal = true;
+// let signal = true;
+// setInterval(function() {
+//     function postRouterSignal() {
+//         if (signal === true) {
+//             console.log('Сигнал отправлен');
+//         } else {
+//             console.log('Сигнал отсутствует');
+//         }
+//     };
+//     postRouterSignal(); 
+// }, 2000);
+
+
+let signal = false;
+
+function postSignalRouter() {
+    if (signal === true) {
+        console.log('Сигнал отправлен');
+    } else {
+        console.log('Сигнал отсутствует');
+    }
+};
+
+function getSignalRouter() {
+    postSignalRouter()
+};
+
+
 setInterval(function() {
-    function postRouterSignal() {
-        if (signal === true) {
-            console.log('Сигнал отправлен');
-        } else {
-            console.log('Сигнал отсутствует');
-        }
-    };
+    getSignalRouter();
 }, 2000);
 
-// function getSignalRouter() {
-//     postRouterSignal() 
-// }
+
+
+
+
+
+// setInterval(function() {
+// 	console.log('text');
+// }, 1000);
